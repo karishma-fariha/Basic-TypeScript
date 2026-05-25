@@ -32,4 +32,4 @@ const worker1: User = { name: "Sarah", role: UserRole.ADMIN };
 const worker2: User = { name: "Alex", role: UserRole.GUEST }; 
 
 console.log(getPermissions(worker1)); // Output: You have full read, write, and delete access.
-console.log(getPermissions(worker2)); // Output: You can only read content.
+console.log(getPermissions(worker2)); // Output: You can only read content.ba
